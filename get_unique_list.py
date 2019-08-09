@@ -14,18 +14,6 @@ import os
 
 directory =  os.path.dirname(os.path.realpath(__file__))
 
-outfilename = directory+'/out.txt'
-
-
-
-# COMMENTING - DONE
-# get unique list of words for the given text files
-
-source_file = directory+'/out.txt'
-unique_file = directory+'/unique_words.txt'
-# source_file = 'F:/data/unique/file_2-letters-parallel_data.txt'
-# unique_file = 'F:/data/unique/file_2-uniq.txt'
-
 
 def get_num_of_words(fname):
     num_words = 0
